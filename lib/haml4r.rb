@@ -1,6 +1,5 @@
 require 'haml/template/options'
 require "haml/template"
-require "haml/helpers/safe_erubis_template"
 if defined? Erubi
   require "haml/helpers/safe_erubi_template"
   Haml::Filters::Erb.template_class = Haml::SafeErubiTemplate
